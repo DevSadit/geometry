@@ -18,11 +18,11 @@ function calculateTriangle() {
 
 
 function calculateRectangle() {
-  const w = document.getElementById(`width`);
+  const width = document.getElementById(`width`);
   const x = parseFloat(width.value);
-  const l = document.getElementById(`length`);
+  const length = document.getElementById(`length`);
   const y = parseFloat(length.value);
-  const area = 0.5 * x * y;
+  const area =  x * y;
 
   //   way 01
   const spanp = document.getElementById(`para-area`);
